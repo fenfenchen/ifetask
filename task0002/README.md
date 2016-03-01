@@ -81,14 +81,6 @@
 var suggestData = ['Simon', 'Erik', 'Kener'];
 ```
 
-**中级班：**
-
-- 自己搭建一个后端Server，使用Ajax来获取提示数据
-
-示例：
-
-![示例](img/task0002_sug.png)
-
 ## 小练习5：界面拖拽交互
 
 - 实现一个可拖拽交互的界面
@@ -100,7 +92,4 @@ var suggestData = ['Simon', 'Erik', 'Kener'];
 
 ![示例](img/task0002_drag.png)
 
-## 任务提交方式
 
-- 初级班同学请在[这里](https://github.com/baidu-ife/ife/issues/766)，按要求回复您的task0002的Github地址。
-- 中级班同学请在[这里](https://github.com/baidu-ife/ife/issues/765)，按要求回复您的task0002的Github地址。
