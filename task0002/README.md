@@ -6,14 +6,6 @@
 
 掌握`JavaScript`基础知识，能够使用`JavaScript`编写一些复杂度不大的交互功能。
 
-## 参考资料
-
-- [MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
-- [慕课网JavaScript入门](http://www.imooc.com/learn/36)
-- [慕课网JavaScript教程](http://www.imooc.com/learn/10)
-- [w3school](http://www.w3school.com.cn/js/)
-- [Codecademy](http://www.codecademy.com/tracks/javascript)
-
 ## 小练习1
 
 ### 任务描述
