@@ -25,7 +25,12 @@
 
 ![文件结构](img/task0001_6.png)
 
-基于[设计稿](img/design.jpg)中的设计图及标志实现页面，里面的内容、图片、配色均可自定义。
+基于[设计稿]中的设计图及标志实现页面，里面的内容、图片、配色均可自定义。
+
+![首页](design/task0001_1_marked.png)
+![文章](design/task0001_2_marked.png)
+![作品](design/task0001_3_marked.png)
+![关于](design/task0001_4_marked.png)
 
 - 编码过程请尽可能遵守[HTML、CSS的代码规范](https://github.com/ecomfe/spec)；
 - 暂时不要使用`less`、`sass`等，这是后面的任务；
@@ -40,12 +45,5 @@
 - 能够较为熟练地使用HTML、CSS创建一个静态页面
 - 大概了解并实践企业中对于HTML及CSS的编码规范
 - 编写复用性高、可读性、可维护性好的代码
-
-### 7.3 参考资料
-
-- [HTML、CSS的代码规范](https://github.com/ecomfe/spec)
-- [顾轶灵:Web语义化](http://www.zhihu.com/question/20455165)
-- [CSS命名规范@W3C Funs](http://www.w3cfuns.com/blog-5445898-5398950.html)
-[点击阅读: CSS浏览器兼容性列表](http://en.wikipedia.org/wiki/Comparison_of_layout_engines_%28Cascading_Style_Sheets%29)
 
 
