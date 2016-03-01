@@ -255,12 +255,12 @@ function updateData(){
 
 function removeCate(item){
     if(item.parentNode.parentNode.nodeName === "LI"){
-        var liCate = item.parentNode.parentNode.getAttribute("date-cate-id");
+        var liCate = item.parentNode.parentNode.getAttribute("data-cate-id");
         if(confirm("是否删除主分类" + liCate)){
             var removeItem = [];
             each(data.cates, function(item){
                 if(item.category === liCate){
-                    removeItem.push(itme);
+                    removeItem.push(item);
                 }
             });
 
@@ -383,27 +383,6 @@ addClickEvent(init.todoCateBtn, function(){
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 each(data.cates, function(item){
     addCateOption(item.category);
 });
@@ -458,14 +437,6 @@ function taskItemClick(e){
         listInventory(data.tasks, listId, "all");
     }
 }
-
-
-
-
-
-
-
-
 
 function addInventory(obj){
     if (obj.cateList){
@@ -642,25 +613,6 @@ function listInventory(arr,list,isDone){
     delegateClickEvent(init.todoDetail,showTaskDetail);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function showTaskDetail(e){
     e = e ||window.event;
     var target = e.target || e.srcElement;
@@ -726,38 +678,6 @@ addClickEvent(init.todoCheckIcon,function(){
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 addClickEvent(init.todoEditIcon,function(){
     var taskId = init.todoDefault[0].getAttribute("data-task-id");
@@ -860,48 +780,6 @@ function formatTime(obj) {
         return [year, month, date].join("-");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 function addCatePanel(display){
     var addCatePanel = $(".add-cate-panel")[0];
@@ -1025,30 +903,3 @@ function initSelect(){
     defaultOption.innerHTML = "新增主分类";
     init.addCateSelect.appendChild(defaultOption);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
