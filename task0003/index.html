@@ -9,59 +9,59 @@
 </head>
 <body>
 <header>
-    <h1 class="todo-title">Todolist</h1>
+    <h1 class="title">Todolist</h1>
 </header>
 
-<div class="todo-container">
-    <section class="todo-category">
-        <p class="todo-category-total">
+<div class="container">
+    <section class="category">
+        <p class="category-total">
             <span>所有任务</span>
-            <span id="todo-total-count"></span>
+            <span id="total-count"></span>
         </p>
-        <div class="todo-category-detail">
+        <div class="category-detail">
             <span>分类列表</span>
-            <ul class="todo-category-list"></ul>
+            <ul class="category-list"></ul>
         </div>
-        <a id="todo-add-category"><i class="fa fa-plus fa-fw"></i>新增分类</a>
+        <a id="add-category"><i class="fa fa-plus fa-fw"></i>新增分类</a>
     </section>
-    <section class="todo-inventory">
-        <ul class="todo-inventory-category">
-            <li class="todo-inventory-selected" id="todo-all">所有</li>
-            <li id="todo-doing">未完成</li>
-            <li id="todo-done">完成</li>
+    <section class="inventory">
+        <ul class="inventory-category">
+            <li class="inventory-selected" id="all">所有</li>
+            <li id="doing">未完成</li>
+            <li id="done">完成</li>
         </ul>
-        <dl class="todo-inventory-detail"></dl>
-        <a id="todo-add-task"><i class="fa fa-plus fa-fw"></i>新增任务</a>
+        <dl class="inventory-detail"></dl>
+        <a id="add-task"><i class="fa fa-plus fa-fw"></i>新增任务</a>
     </section>
 
-    <section class="todo-spec">
-        <form name="taskForm" id="todo-form">
-            <div class="todo-spec-title">
+    <section class="spec">
+        <form name="taskForm" id="form">
+            <div class="spec-title">
                 <label><i class="fa fa-flag"></i></label>
-                <input type="text" id="todo-task-title" placeholder="在这里输入标题" autofocus="autofocus" display="none">
-                <span id="todo-default-title"></span>
-                <span class="todo-spec-edit">
+                <input type="text" id="task-title" placeholder="在这里输入标题" autofocus="autofocus" display="none">
+                <span id="default-title"></span>
+                <span class="spec-edit">
                     <i class="fa fa-check fa-2x" style="display: none"></i>
                     <i class="fa fa-undo fa-2x" style="display: none"></i>
                     <i class="fa fa-pencil-square-o fa-2x"></i>
                     <i class="fa fa-check-square-o fa-2x"></i>
                 </span>
             </div>
-            <div class="todo-spec-time">
+            <div class="spec-time">
                 <label><i class="fa fa-calendar"></i> </label>
-                <input id="todo-task-time" type="date" style="display: none">
-                <span id="todo-default-time"></span>
+                <input id="task-time" type="date" style="display: none">
+                <span id="default-time"></span>
             </div>
-            <div class="todo-spec-content">
-                <textarea id="todo-task-content" placeholder="请在这里输入内容" style="display: none"></textarea>
-                <p id="todo-default-content"></p>
+            <div class="spec-content">
+                <textarea id="task-content" placeholder="请在这里输入内容" style="display: none"></textarea>
+                <p id="default-content"></p>
             </div>
         </form>
     </section>
 </div>
 
 <div class="add-cate-panel">
-    <h3><i class="fa fa-folder fa-fw"></i>新增分类</h3>
+    <h3>新增分类</h3>
     <ul>
         <li>
             <label for="add-cate-main">选择主分类</label>
@@ -75,8 +75,8 @@
         </li>
     </ul>
     <div class="add-cate-btn">
-        <span id="add-cate-cancel"><i class="fa fa-meh-o"></i>取消</span>
-        <span id="add-cate-check"><i class="fa fa-smile-o"></i>确认</span>
+        <span id="add-cate-cancel">取消</span>
+        <span id="add-cate-check">确认</span>
     </div>
 </div>
 
