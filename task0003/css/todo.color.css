@@ -7,52 +7,52 @@ header {
     background-color: #ddd;
 }
 
-.todo-category {
+.category {
     background-color: #f2f2f2;
 }
 
-.todo-category-total:hover {
+.category-total:hover {
     background-color: #fff;
 }
 
-.todo-category > a,
-.todo-inventory > a {
+.category > a,
+.inventory > a {
     background-color: #ddd;
 }
 
-.todo-category > a:hover,
-.todo-inventory > a:hover {
+.category > a:hover,
+.inventory > a:hover {
     background-color: #fff;
 }
 
-.todo-task-list > li:hover,
-.todo-task-selected {
+.task-list > li:hover,
+.task-selected {
     background-color: #fff;
 }
 
-.todo-inventory {
+.inventory {
     background-color: #eee;
 }
 
-.todo-inventory-category li:hover,
-.todo-inventory-selected {
+.inventory-category li:hover,
+.inventory-selected {
     background-color: #fff;
 }
 
-.todo-inventory-detail > dt {
+.inventory-detail > dt {
     background-color: #fafaee;
 }
 
-.todo-inventory-detail dd:hover,
-.todo-detail-selected {
+.inventory-detail dd:hover,
+.detail-selected {
     background-color: #fff;
 }
 
-.todo-spec-title {
+.spec-title {
     background-color: #f5f5f5;
 }
 
-.todo-spec-time {
+.spec-time {
     background-color: #FAFAD2;
 }
 
@@ -61,11 +61,4 @@ header {
     background-color: #f1f1f1;
 }
 
-/*.add-cate-panel > h3{
-    background-color: #f1f1f1;
-}
-
-.add-cate-btn > span {
-    background-color: #f1f1f1;
-}*/
 
